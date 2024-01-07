@@ -15,8 +15,8 @@
 ```
 git clone https://github.com/damirpopo/forum.git
 ```
-##Для запуска проекта надо запустить бек и фронт.
-###Запуск backend:
+## Для запуска проекта надо запустить бек и фронт.
+### Запуск backend:
 Переходим в раздел forumBack и вводим следующие комманды:
   1.	виртуальное окружение:
 ```
@@ -43,7 +43,7 @@ python -m pip install Pillow
 ```
      pythom manage.py runserver
 ```
-###Запуск frontend:
+### Запуск frontend:
 
 Переходим в раздел forumFront
 ### Вводим следующие команды:
@@ -57,4 +57,4 @@ npm install react-scripts --save
 ```
 npm start
 ```
-##Описание функционала - https://docs.google.com/document/d/1J-1aCBdd2xj2I6RI81upGWMNAX0B2sIWZNfuhALvsRo/edit?usp=sharing
+## Описание функционала - https://docs.google.com/document/d/1J-1aCBdd2xj2I6RI81upGWMNAX0B2sIWZNfuhALvsRo/edit?usp=sharing
