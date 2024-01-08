@@ -668,8 +668,11 @@
   font-size: 17px;
 }
 
-.btn_profile_dark:active{
+.btn_profile_dark:hover{
   background: #3289db;
+}
+.btn_profile_dark:active{
+  background: #1d5285;
 }
 
 .profile_box2_dark{
@@ -756,8 +759,11 @@
   justify-content: center;
 }
 
-.span_profile_dark:active{
+.span_profile_dark:hover{
   background: #3289db;
+}
+.span_profile_dark:active{
+  background: #1d5285;
 }
 
 .icn_dark{

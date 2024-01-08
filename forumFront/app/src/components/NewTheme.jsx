@@ -14,7 +14,7 @@ function NewTheme() {
     const [content, setContent] = useState('')
     const [categoryId, setcategoryId] = useState(1)
     const current = new Date();
-    const date = `${current.getDate() > 9 ? current.getDate() : '0' + current.getDate()}.${current.getMonth() + 1 > 9 ? current.getMonth() + 1 : '0' + current.getMonth() + 1}.${current.getFullYear()}`;
+    const date = `${current.getDate() > 9 ? current.getDate() : '0' + current.getDate()}.${current.getMonth() + 1 > 9 ? current.getMonth() + 1 : '0' + (current.getMonth() + 1) }.${current.getFullYear()}`;
     const time = `${current.getHours() > 9 ? current.getHours() : '0' + current.getHours()}:${current.getMinutes() > 9 ? current.getMinutes() : '0' + current.getMinutes()}`;
 
     async function post(event) {
@@ -41,7 +41,7 @@ function NewTheme() {
 
     return (
         <div className={`container_auth_form${style?'_dark':''}`}>
-            <Back/>
+            <Back />
             <form className={`newthme_form${style?'_dark':''}`} action="" onSubmit={post} enctype="multipart/form-data" >
                 <div>
                     <select className={`select${style?'_dark':''}`} onChange={(e) => { setcategoryId(e.target.value) }} name="" id="">
