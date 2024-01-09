@@ -19,6 +19,7 @@ git clone https://github.com/damirpopo/forum.git
 ### Запуск backend:
 Переходим в раздел forumBack и вводим следующие комманды:
   1.	виртуальное окружение:
+может потребоватся удоление старого и создание нового
 ```
 python -m venv venv
 ```
