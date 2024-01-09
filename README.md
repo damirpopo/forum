@@ -20,6 +20,9 @@ git clone https://github.com/damirpopo/forum.git
 Переходим в раздел forumBack и вводим следующие комманды:
   1.	виртуальное окружение:
 ```
+python -m venv venv
+```
+```
 venv/Scripts/activate   
 ```
   2. Установка модулей:
