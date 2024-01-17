@@ -111,7 +111,7 @@ function Signup() {
                 <div>
                     <input className={`form_input${style?'_dark':''}`} id='input3' type="password" placeholder='Password' onChange={(e) => { setPassword(e.target.value) }} />
                 </div>
-                <input className={`auth_submit${style?'_dark':''}`} type="submit" value="Зарегистриватся" />
+                <input className={`auth_submit${style?'_dark':''}`} type="submit" value="зарегистрироваться" />
             </form>
         </div>
     );
